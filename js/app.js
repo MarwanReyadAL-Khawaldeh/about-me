@@ -17,7 +17,7 @@ alert('your age is :' + ' ' + userAge);
 
 
 
-
+const niceFriend= function(){
 let goodFrined = prompt('Do you think I am a good friend? :YES/NO');
 if (goodFrined.toLocaleLowerCase() === 'yes') {
   alert('Thank you Bro');
@@ -28,7 +28,10 @@ if (goodFrined.toLocaleLowerCase() === 'yes') {
   alert('I am sorry that I am not a good friend');
   //console.log(goodFrined);
 }
+};
+niceFriend();
 
+const coffeeLover=function(){
 let loveCoffe = prompt('Do i love coffe? :YES/NO');
 
 if (loveCoffe.toLowerCase() === 'yes') {
@@ -40,7 +43,10 @@ if (loveCoffe.toLowerCase() === 'yes') {
   alert('you are wrong I love coffee very much');
   //console.log(loveCoffe);
 }
+}
+coffeeLover();
 
+const career = function(){
 let ownBusiness = prompt('Do you think I can start my own business in the future? :YES/NO');
 
 if (ownBusiness.toLowerCase() === 'yes') {
@@ -53,7 +59,9 @@ else if (ownBusiness.toLowerCase() === 'no') {
   alert('So what should I do');
   //console.log(ownBusiness);
 }
-
+};
+career();
+const swimming = function(){
 let toSwim = prompt('Am I good at swimming? :YES/NO');
 
 if (toSwim.toLocaleLowerCase() === 'yes') {
@@ -65,7 +73,10 @@ if (toSwim.toLocaleLowerCase() === 'yes') {
   alert('you are wrong');
   //console.log(toSwim);
 }
+};
+swimming();
 
+const helpOthers = function(){
 let asksHelp = prompt('If a stranger suddenly came to me and asks for help, would I help him?? :YES/NO');
 if (asksHelp.toLocaleLowerCase() === 'yes') {
   alert('Thats right we must help other if we can');
@@ -77,7 +88,9 @@ if (asksHelp.toLocaleLowerCase() === 'yes') {
   //console.log(asksHelp);
 }
 
-
+};
+helpOthers();
+const guessNumbers = function(){
 let num = 0;
 let gussNumber;
 while (num < 4) {
@@ -111,8 +124,11 @@ while (num < 4) {
 if (gussNumber !== '7') {
   alert('You have exhausted all your attempts,The correct answer is 7');
 }
+}
 
+guessNumbers();
 
+const mySport = function(){
 let arr = ['football', 'swimming', 'basketball', 'tennis', 'golf', 'boxing', 'bowling', 'horse racing', 'judo'];
 
 let gussSport;
@@ -172,5 +188,7 @@ if (gussSport !== arr[0] && gussSport !== arr[1] && gussSport !== arr[7]) {
   alert('You have exhausted all your attempts');
 
 }
+};
+mySport();
 
 alert('your result is : ' + ' ' + counter);
