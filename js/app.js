@@ -36,7 +36,7 @@ const niceFriend = function () {
 
 niceFriend();
 let loveCoffe = prompt('Do i love coffe? :YES/NO');
-const CoffeeLove = function () {
+const coffeeLove = function () {
 
   while (loveCoffe.toLocaleLowerCase() !== 'no' && loveCoffe.toLocaleLowerCase() !== 'n' && loveCoffe.toLocaleLowerCase() !== 'yes' && loveCoffe.toLocaleLowerCase() !== 'y') {
     loveCoffe = prompt('Do i love coffe? :YES/NO');
@@ -54,7 +54,7 @@ const CoffeeLove = function () {
     }
   }
 };
-CoffeeLove();
+coffeeLove();
 let ownBusiness = prompt('Do you think I can start my own business in the future? :YES/NO');
 const career = function () {
 
@@ -218,6 +218,8 @@ const mySport = function () {
 mySport();
 
 alert('your result is : ' + ' ' + counter);
+
+
 
 
 
