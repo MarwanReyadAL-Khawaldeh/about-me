@@ -30,7 +30,7 @@ body {
     
   }
   
-
+  
   #num1{
     background-color: burlywood;
   }
@@ -54,7 +54,7 @@ body {
   footer {
     text-align: center;
   }
-
+  
   .ord__list li:nth-child(odd){
     background-color: cyan;
     color: darkred;
@@ -65,7 +65,7 @@ body {
     color: orangered;
     text-align: center;
   }
-
+  
   .unord___list li:nth-child(odd){
     background-color: peru;
     color: red;
@@ -75,4 +75,14 @@ body {
     background-color: tomato;
     color: yellow;
     text-align: center;
+  }
+  .unord___list{
+    border-style: dotted;
+    border-width: 15px 10px 10px 15px;
+    border-color:lawngreen;
+  }
+  .ord__list{
+    border-style: dotted;
+    border-width: 15px 10px 10px 15px;
+    border-color:aqua;
   }
